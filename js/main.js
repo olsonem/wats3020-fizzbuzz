@@ -20,7 +20,7 @@ while (!isInteger) {
 // TODO: Inside `while` loop prompt the user for the `maxNumber` value.
   maxNumber = prompt ('Enter a number over zero, must be an integer',20);
   maxNumber = parseInt(maxNumber);
-  if (number.isSafeInteger(maxNumber) && maxNumber > 0) {
+  if (Number.isSafeInteger(maxNumber) && maxNumber > 0) {
     isInteger = true;
   }
  
