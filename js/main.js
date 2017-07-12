@@ -22,8 +22,11 @@ while (!isInteger) {
 // This is where a alert statement would go to alert the user that their input did 
 // not meet the conditions to be legit.
     if (Number.isSafeInteger(maxNumber) && maxNumber > 0) {
-    isInteger = true;
-  }
+        isInteger = true;
+    } else{
+        alert("you must submit an integer");
+    }
+    
 //  If the value of `maxNumber` is suitable, then change the value of
 // `isInteger` so the `while` loop stops looping.
   
